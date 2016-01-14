@@ -12,7 +12,7 @@ public class TaskB {
 		
 		instanceSpace.loadInstancesFromCsv();
 	
-		instanceSpace.getRandomInstances(2);
+		instanceSpace.getRandomInstances(995);
 		List<InstanceDistance> distances = new ArrayList<InstanceDistance>();
 		
 		int k=1;
@@ -37,7 +37,7 @@ public class TaskB {
 		
 		Collections.sort(distances);
 		
-		for(int i=1;i<=1;i++)
+		for(int i=1;i<=k;i++)
 		{
 			if(distances.get(i-1).Instance.TargetClass == true)
 			{
