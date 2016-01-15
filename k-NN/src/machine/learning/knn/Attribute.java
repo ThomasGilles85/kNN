@@ -11,7 +11,7 @@ public class Attribute<T> {
 		Type = type;
 	}
 
-	
+	//The Function will calculate the distence to an other attribute
 	public double distanceToAttribute(Attribute<T> attribute)
 	{
 		double distance=-1;
@@ -37,7 +37,7 @@ public class Attribute<T> {
 		
 	}
 
-
+	//Deep Copy the Attribute
 	public Attribute<T> Copy() {
 		Attribute<T> attribute = new Attribute<T>(Value, Type);
 		attribute.Range = Range;	 
