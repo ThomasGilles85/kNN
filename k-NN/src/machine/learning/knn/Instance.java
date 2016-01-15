@@ -12,6 +12,7 @@ public class Instance {
 		Attributes = new ArrayList<Attribute>();
 	}
 	
+	//Calculate the distance from the object to another distance
 	public double distanceToInstace(Instance instance)
 	{
 		
@@ -27,6 +28,7 @@ public class Instance {
 		return distance;
 	}
 
+	//Deep Copz the Instance
 	public Instance Copy() {
 		Instance instance = new Instance();
 		
